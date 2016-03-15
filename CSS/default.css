@@ -1,0 +1,14 @@
+﻿
+/*********************************************
+** The following CSS is used to disable text
+** highlighting which interferes with the user
+** clicking and dragging interactively in the
+** HTML 5 canvas.
+*****************************************/
+html,  body,  div,  span,  object,
+form,  input, h1,   h2,    button, 
+label, a, img, canvas {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
